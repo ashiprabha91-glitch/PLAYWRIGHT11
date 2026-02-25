@@ -1,0 +1,18 @@
+/*✅ Grade Calculator:
+Write a program that calculates and displays the letter grade for a given numerical score (e.g., A, B, C, D, or F) based on the following grading scale:
+A: 90-100 B: 80-89 C: 70-79 D: 60-69 F: 0-59*/
+
+let Grade, marksscore = 1;
+if(marksscore >= 90 && marksscore <= 100) {
+    console.log("Grade: A");
+} else if(marksscore >= 80 && marksscore < 90) {
+    console.log("Grade: B");
+} else if(marksscore >= 70 && marksscore < 80) {
+    console.log("Grade: C");
+} else if(marksscore >= 60 && marksscore < 70) {
+    console.log("Grade: D");
+} else if(marksscore >= 0 && marksscore < 60) {
+    console.log("Grade: F");
+} else {
+    console.log("Invalid score");
+}
